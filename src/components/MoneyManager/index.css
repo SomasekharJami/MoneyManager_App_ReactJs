@@ -1,0 +1,262 @@
+@media screen and (min-width: 768px) {
+  .mainCon {
+    margin: 0;
+    max-width: 100vw;
+    min-height: 100vh;
+    padding: 5vw;
+    font-family: 'Roboto';
+  }
+  .headCon {
+    width: 90vw;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+    background-size: cover;
+    padding: 3vw;
+    border: none;
+    border-radius: 15px;
+  }
+  .mainH {
+    color: #475569;
+    font-size: 3vw;
+  }
+  .mainP {
+    color: #475569;
+    font-size: 1.5vw;
+  }
+  .spanEl {
+    color: #0b69ff;
+    font-weight: 530;
+  }
+  .thirdCon {
+    width: 90vw;
+    padding: 0;
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .formEl {
+    border: 1px solid #cbd5e1;
+    width: 30vw;
+    min-height: 60vh;
+    padding: 3vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .formH {
+    margin-top: 0;
+    color: #475569;
+    font-size: 2vw;
+    margin-bottom: 4vh;
+  }
+  .labelEl {
+    font-size: 1.2vw;
+    color: #7e858e;
+    padding-bottom: 3px;
+  }
+  .inputEl {
+    font-size: 1.3vw;
+    color: #7e858e;
+    width: 100%;
+    margin-bottom: 2.5vh;
+    padding: 8px;
+    border: 1px solid #cbd5e1;
+    outline: none;
+  }
+  .selectEl {
+    width: 100%;
+    font-size: 1.3vw;
+    color: #7e858e;
+    outline: none;
+    padding: 8px;
+    margin-bottom: 2.5vh;
+  }
+  .bton {
+    color: white;
+    font-size: 1.5vw;
+    padding: 1vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    border: none;
+    background-color: #0b69ff;
+    border-radius: 5px;
+  }
+  .hisCon {
+    width: 55vw;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    min-height: 60vh;
+    padding: 2vw;
+  }
+  .hisH {
+    margin-top: 0;
+    color: #475569;
+    font-size: 2vw;
+    margin-bottom: 4vh;
+  }
+  .listCon {
+    width: 51vw;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .listItem {
+    width: 51vw;
+    list-style: none;
+    display: flex;
+    margin-left: 0;
+    border: 1px solid #cbd5e1;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .listH {
+    width: 12vw;
+    margin: 0;
+    color: #475569;
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mainCon {
+    margin: 0;
+    max-width: 100vw;
+    min-height: 100vh;
+    padding: 5vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-family: 'Roboto';
+  }
+  .headCon {
+    width: 90vw;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+    background-size: cover;
+    padding: 3vw;
+    height: 30vh;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .mainH {
+    color: #475569;
+    font-size: 4vh;
+    margin: 0;
+  }
+  .mainP {
+    color: #475569;
+    font-size: 2.5vh;
+    text-align: center;
+  }
+  .spanEl {
+    color: #0b69ff;
+    font-weight: 530;
+  }
+  .thirdCon {
+    width: 90vw;
+    padding: 0;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .formEl {
+    border: 1px solid #cbd5e1;
+    width: 90vw;
+    min-height: 60vh;
+    padding: 5vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 4vh;
+  }
+  .formH {
+    margin-top: 0;
+    color: #475569;
+    font-size: 3.5vh;
+    margin-bottom: 4vh;
+  }
+  .labelEl {
+    font-size: 2vh;
+    color: #7e858e;
+    padding-bottom: 3px;
+  }
+  .inputEl {
+    font-size: 2.5vh;
+    color: #7e858e;
+    width: 100%;
+    margin-bottom: 2.5vh;
+    padding: 8px;
+    border: 1px solid #cbd5e1;
+    outline: none;
+  }
+  .selectEl {
+    width: 100%;
+    font-size: 2.5vh;
+    color: #7e858e;
+    outline: none;
+    padding: 8px;
+    margin-bottom: 2.5vh;
+  }
+  .bton {
+    color: white;
+    font-size: 3vh;
+    padding: 2vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    border: none;
+    background-color: #0b69ff;
+    border-radius: 5px;
+  }
+  .hisCon {
+    width: 90vw;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    min-height: 60vh;
+    padding: 5vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+  .hisH {
+    margin-top: 0;
+    color: #475569;
+    font-size: 3.5vh;
+    margin-bottom: 4vh;
+  }
+  .listCon {
+    width: 51vw;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .listItem {
+    width: 80vw;
+    list-style: none;
+    display: flex;
+    margin-left: 0;
+    border: 1px solid #cbd5e1;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+  }
+  .listH {
+    width: 20vw;
+    margin: 0;
+    color: #475569;
+    font-size: 2.5vh;
+  }
+}

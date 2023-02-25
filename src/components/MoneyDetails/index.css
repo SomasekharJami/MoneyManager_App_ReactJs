@@ -1,0 +1,112 @@
+@media screen and (min-width: 768px) {
+  .secondCon {
+    list-style: none;
+    width: 90vw;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+  }
+  .firLi {
+    width: 28vw;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.5vw;
+  }
+  .listImg {
+    width: 6vw;
+    padding-right: 15px;
+  }
+  .balList {
+    border: 1px solid #84cc16;
+    border-radius: 10px;
+    background-color: #ecfccb;
+  }
+  .inList {
+    border: 1px solid #06b6d4;
+    border-radius: 10px;
+    background-color: #cffafe;
+  }
+  .expList {
+    border: 1px solid #7c3aed;
+    border-radius: 10px;
+    background-color: #ede9fe;
+  }
+  .textCon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .firLiP {
+    color: #7e858e;
+    font-size: 1.2vw;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  .firLiH {
+    color: #475569;
+    font-size: 2vw;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .secondCon {
+    list-style: none;
+    width: 90vw;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+  }
+  .firLi {
+    width: 90vw;
+    height: 20vh;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2vw;
+    padding-left: 5vw;
+    margin-bottom: 2vh;
+  }
+  .listImg {
+    height: 12vh;
+    padding-right: 4vw;
+  }
+  .balList {
+    border: 1px solid #84cc16;
+    border-radius: 10px;
+    background-color: #ecfccb;
+  }
+  .inList {
+    border: 1px solid #06b6d4;
+    border-radius: 10px;
+    background-color: #cffafe;
+  }
+  .expList {
+    border: 1px solid #7c3aed;
+    border-radius: 10px;
+    background-color: #ede9fe;
+  }
+  .textCon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .firLiP {
+    color: #7e858e;
+    font-size: 2.5vh;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  .firLiH {
+    color: #475569;
+    font-size: 4vh;
+    margin: 0;
+  }
+}

@@ -1,0 +1,57 @@
+@media screen and (min-width: 768px) {
+  .listItem {
+    width: 51vw;
+    list-style: none;
+    display: flex;
+    margin-left: 0;
+    border: 1px solid #cbd5e1;
+    border-top: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    align-items: center;
+  }
+  .listP {
+    width: 12vw;
+    margin: 0;
+    color: #475569;
+    font-size: 1.5vw;
+  }
+  .delBton {
+    border: none;
+    background-color: transparent;
+  }
+  .delIcon {
+    width: 2vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .listItem {
+    width: 80vw;
+    list-style: none;
+    display: flex;
+    margin-left: 0;
+    border: 1px solid #cbd5e1;
+    border-top: none;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    align-items: center;
+  }
+  .listP {
+    width: 20vw;
+    margin: 0;
+    color: #475569;
+    font-size: 2.5vh;
+  }
+  .delBton {
+    border: none;
+    background-color: transparent;
+  }
+  .delIcon {
+    width: 4vh;
+  }
+}
